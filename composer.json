@@ -1,0 +1,33 @@
+{
+    "name": "netflie/monolog-stackdriver-handler",
+    "description": "A Google Stackdriver logging handler for Monolog.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Álex Albarca",
+            "email": "alex@albarca.es"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "monolog/monolog": ">=1.21",
+        "google/cloud": ">=0.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netflie\\MonologStackdriverHandler\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netflie\\MonologStackdriverHandler\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}

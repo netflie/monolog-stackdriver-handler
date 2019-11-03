@@ -1,0 +1,4 @@
+composer.phar
+/vendor/
+monolog-stackdriver-handler.sublime-project
+monolog-stackdriver-handler.sublime-workspace
