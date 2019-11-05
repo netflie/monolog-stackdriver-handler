@@ -1,4 +1,5 @@
 composer.phar
+composer.lock
 /vendor/
 monolog-stackdriver-handler.sublime-project
 monolog-stackdriver-handler.sublime-workspace
